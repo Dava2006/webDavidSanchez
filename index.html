@@ -1,1 +1,198 @@
-<hi>Página web de David Sánchez</hi>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <title>Práctica blog de recetas</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="practicaBlogDeRecetas.css">
+
+</head>
+
+<body>
+   
+    <header>
+        <h1><strong>Blog de recetas</strong></h1>
+    </header>
+
+    <nav id="menu">
+        <a id="rec" href="#receta"><strong>Receta</strong><strong></strong></a>
+        <a id="cal" href="#calorías"><strong>Calorías</strong></a>
+        <a id="imagen" href="#img"><strong>Imagen</strong></a>
+        <a id="sus" href="#suscripción"><strong>Suscripción</strong></a>
+    </nav>
+
+    <br><br>
+
+    <section class="titulo" id="receta">
+        <h2><strong>Receta</strong></h2>
+    </section>
+
+    <br>
+
+   <h2 id="pollo"><strong>Pollo a la cerveza</strong></h2>
+
+   <div>
+
+    <h3 id="ing"><u>Ingredientes</u>_______________________________________________________________________________<u>Pasos</u>______________________________________</h3>
+
+        <ul>
+            <li>Muslos de pollo (6 ud)</li>
+            <li>contramuslos de pollo (6 ud)</li>
+            <li>Cebolla picada (1 ud)</li>
+            <li>Dientes de ajo (2 ud)</li>
+            <li>Pimiento verde (1 ud)</li>
+            <li>Zanahoria (2 ud)</li>
+            <li>Cerveza rubia (500 ml)</li>
+            <li>Sal (al gusto)</li>
+            <li>Aceite de oliva (al gusto)</li>
+            <li>Pimienta negra (al gusto)</li>
+        </ul>
+    </div>
+
+    <div>
+
+        <ol id="pasos">
+            <li>Sacar el pollo y salpimentarlo.</li>
+            <li>Calentar un fondo de aceite de oliva en una cazuela grande y dorar el pollo a fuego medio-fuerte por ambas caras.<br>Retirarlo a una fuente y reservar.</li>
+            <li>En la misma cazuela, sofreír la cebolla a temperatura media-baja. Cuando transparente, añadir los ajos y dorar unos minutos.</li>
+            <li>Echar las verduras y salpimentar.</li>
+            <li>Cocinar 15 minutos removiendo a menudo y a los dos minutos reincorporar el pollo a la cazuela.</li>
+            <li>Cubrir con la cerveza, llevar a ebullición, bajar el fuego y mantener la cocción suave 45-50 minutos.<br>Vigilar el nivel de líquido y añadir un poco de agua si fuera necesario.</li>
+            <li>Dejarlo reposar tapado antes de servir.</li>
+       </ol>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <h3><u>Fuente: <a href="https://www.directoalpaladar.com/recetas-de-carnes-y-aves/pollo-a-cerveza-guiso-que-sacrificarias-tu-ultima-lata-birra">Pollo a la cerveza</a></u></h3>
+
+    <br><br>
+
+    <div id="img">
+    <img alt="Pollo a la cerveza" src="https://www.cocinacaserayfacil.net/wp-content/uploads/2018/06/Pollo-a-la-cerveza-guisado.jpg">
+    </div>
+
+    <br><br><br><br><br>
+
+    <section class="titulo" id="calorías">
+        <h2><strong>Calorías</strong></h2>
+    </section>
+
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th><u>Ingredientes</u></th>
+                <th><u>Calorías / 100 gr</u></th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Muslos de pollo</td>
+            <td>177</td>
+        </tr>
+        <tr>
+            <td>Contramuslos de pollo</td>
+            <td>153</td>
+        </tr>
+        <tr>
+            <td>cebolla picada</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>Dientes de ajo</td>
+            <td>4,5</td>
+        </tr>
+        <tr>
+            <td>Pimiento verde</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>Zanahoria</td>
+            <td>34</td>
+        </tr>
+        <tr>
+            <td>Cerveza rubia</td>
+            <td>115</td>
+        </tr>
+        <tr>
+            <td>sal</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Aceite de oliva</td>
+            <td>884</td>
+        </tr>
+        <tr>
+            <td>Pimienta negra</td>
+            <td>251</td>
+        </tr>
+        <tr>
+            <td><strong>1 plato de pollo a la cerveza</strong></td>
+            <td><strong>500</strong></td>
+        </tr>
+        </tbody>
+    </table>
+
+    <br><br><br><br><br>
+
+    <section class="titulo" id="suscripción">
+        <h2><strong>Suscripción</strong></h2>
+    </section>
+
+    <br>
+
+    <form action="#" method="POST">
+        <label>Nombre:</label><br>
+        <input class="largura" type="text" id="nombre" name="nombre" placeholder="Tu nombre" required autofocus><br>
+
+        <label>Apellidos:</label><br>
+        <input class="largura" type="text" id="apellidos" name="clave" placeholder="Apellidos"><br>
+
+        <label>País:</label><br>
+        <input class="largura" type="text" id="pais" name="país" placeholder="País"><br>
+
+        <label>Edad:</label><br>
+        <input class="largura" type="number" id="edad" name="edad" placeholder="Tu edad"><br>
+
+        <label>Dirección postal:</label><br>
+        <input class="largura" type="text" id="DirecciónPostal" name="DirecciónPostal" placeholder="Calle, número, cód.postal" required><br>
+
+        <label>Fecha de nacimiento:</label><br>
+        <input class="largura" type="date" id="fecha_N" name="fecha de nacimiento"><br><br>
+
+        <label>Género:</label>
+        <input type="radio" id="radio4" name="hombre"> <label>Hombre</label>
+        <input type="radio" id="radio5" name="mujer"> <label>Mujer</label>
+        <input type="radio" id="radio6" name="otro"> <label>Otro</label><br><br>
+
+        <label>Correo electrónico:</label><br>
+        <input class="largura" type="email" id="correo" name="correo" placeholder="Tu correo"><br>
+
+        <label>Teléfono:</label><br>
+        <input class="largura" type="tel" id="teléfono" name="teléfono" placeholder="Tu número de teléfono"><br><br>
+
+        <labeL>Satisfacción con la página:</label><br>
+        <input class="largura" type="range" id="satisfaccion" name="satisfacción"><br><br>
+
+        <label>Comentarios:</label><br>
+        <textarea id="largura" name="comentarios" placeholder="escribe las mejoras que crees necesarias para la página"></textarea><br><br>
+
+        <input class="largura" type="text" id="enviar" name="enviar" placeholder="Enviar formulario">
+
+    </form>
+
+    <br><br>
+
+    <footer>
+        <p>Autor de la página: David Sánvchez Castillejos</p>
+        <p><u>Redes sociales:</u><br>
+        Instagram: @example<br>
+        Faceboof: @example</p>
+      </footer>
+
+
+</body>
+</html>
