@@ -1,0 +1,154 @@
+body {
+
+    margin: 30px;
+    background-color: rgb(252, 221, 252);
+}
+
+header {
+
+    border-style: double;
+    padding: 30px;
+    text-align:center;
+    font-size:200%;
+    text-decoration: underline;
+    background-color: rgb(213, 126, 64);
+    color: rgb(97, 11, 106);
+
+}
+
+h1 {
+    border-style: dotted;
+    border-width: thick;
+    padding: 14px;
+    border-color: rgb(97, 11, 106);
+    
+}
+
+#menu {
+
+    background-color: darkgray;
+    text-align: center;
+    padding: 15px;
+}
+
+#rec, #sus, #cal, #imagen {
+
+    padding: 13px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0%;
+    border-color: black;
+    text-align:center;
+    font-size: 100%;
+    background-color: rgb(14, 162, 48);
+    color: rgb(123, 6, 6);
+    font-family: 'Courier New', Courier, monospace;
+    transition-property: initial;
+
+}
+
+#rec:hover, #sus:hover, #cal:hover {
+
+    background-color: white;
+
+}
+
+.titulo {
+
+    border-style: dotted;
+    padding: 10px;
+    text-align:center;
+    font-size:125%;
+    text-decoration: underline;
+    background-color: rgb(136, 153, 198);
+    color: rgb(5, 82, 82);
+
+}
+
+#pollo {
+
+    border-style: double;
+    border-radius: 40px;
+    padding: 20px;
+    text-align:center;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-size: 130%;
+
+}
+
+#ing {
+
+    padding-top: 5px;
+    padding-left: 60px;
+}
+
+div {
+
+    text-align: left;
+
+}
+
+ul {
+
+    float: left;
+    list-style-type: square;
+
+}
+
+#pasos {
+
+    float: right;
+
+}
+
+#img {
+
+    text-align: center;
+}
+
+table, th, td {
+    padding: 20px;
+    text-align: center;
+    border: 3px solid;
+    width: 100%
+}
+
+  tr:hover {
+    background-color: coral;
+}
+
+form {
+    text-align: center;
+    border-style: solid;
+    border-radius: 2.5%;
+    border-color:rgb(153, 153, 153);
+    border-width: 2px;
+    width: 97%;
+    padding: 0.9em;
+}
+
+.largura {
+    width: 90%;
+}
+
+#largura {
+    width: 12.9cm;
+    height: 3cm;
+}
+ #subir_archivo {
+    background-color: rgb(230, 230, 230);
+ }
+
+ #satisfaccion {
+    color: blue;
+ }
+
+ footer {
+    background-color:rgb(5, 82, 82);
+    padding: 8px;
+    text-align: center;
+    font-family: georgia;
+    font-size: 0.5em;
+    color: white;
+  }
